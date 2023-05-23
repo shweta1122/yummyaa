@@ -1,0 +1,7 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 63%;
+  margin-left: 42rem;
+  margin-top: 2rem;
+}
