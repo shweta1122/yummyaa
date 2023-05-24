@@ -12,13 +12,24 @@ const Navbar: React.FC<{}> = () => {
   ];
 
   return (
-    <nav className="nav-container">
-      <Logo />
-      {menuItems.map((item) => (
-        <div>{item.name}</div>
-      ))}
-      <Button />
-    </nav>
+    <div>
+      <nav className="nav-container">
+        <div className="logo">
+          <h2>Yummyaaa!</h2>
+        </div>
+        <div className="menu-links">
+          <ul>
+            {menuItems.map((item) => (
+              <li>
+                <a href={item.link}>{item.name}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <Button />
+      </nav>
+    </div>
   );
 };
 

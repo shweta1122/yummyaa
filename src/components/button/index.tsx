@@ -1,7 +1,11 @@
 import "./index.css";
 
 const Button: React.FC<{}> = () => {
-  return <button className="book-table-btn">Book a table</button>;
+  return (
+    <div className="book-table-btn">
+      <button>Book a table</button>
+    </div>
+  );
 };
 
 export default Button;
