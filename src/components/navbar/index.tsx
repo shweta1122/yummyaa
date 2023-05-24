@@ -14,9 +14,7 @@ const Navbar: React.FC<{}> = () => {
   return (
     <div>
       <nav className="nav-container">
-        <div className="logo">
-          <h2>Yummyaaa!</h2>
-        </div>
+        <Logo />
         <div className="menu-links">
           <ul>
             {menuItems.map((item) => (

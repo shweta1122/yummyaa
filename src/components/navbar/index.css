@@ -7,6 +7,9 @@
 li {
   list-style: none;
 }
+h2 {
+  font-weight: 400;
+}
 
 .nav-container {
   width: 100%;
@@ -14,13 +17,7 @@ li {
   display: grid;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
-.logo {
-  grid-column: 2/3;
-  display: grid;
-  justify-content: start;
-  align-items: center;
-  font-weight: 400;
-}
+
 
 .menu-links {
   grid-column: 3/4;
