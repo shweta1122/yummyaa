@@ -9,8 +9,19 @@
   gap: 23rem;
   margin-left: 20rem;
 }
-h3 {
+h2 {
   font-weight: 500;
   font-family: Bahnschrift Light;
   line-height: 43px;
+}
+
+.main-content {
+  margin-right: 479px;
+  margin-top: 3rem;
+}
+
+.btn {
+  justify-content: left;
+  display: flex;
+  margin-top: 67px;
 }
