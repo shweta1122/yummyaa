@@ -15,9 +15,9 @@ h2 {
   width: 100%;
   height: 10rem;
   display: grid;
+  margin-bottom: 90px;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
 }
-
 
 .menu-links {
   grid-column: 3/4;
