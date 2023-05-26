@@ -1,4 +1,4 @@
-import Button from "../button";
+import Button from "../button/BookTableBTn";
 import Logo from "../logo";
 import "./index.css";
 

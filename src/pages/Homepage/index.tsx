@@ -1,5 +1,7 @@
-import Button from "../../components/button";
+import Button from "../../components/button/BookTableBTn";
+import MenuButton from "../../components/button/MenuTableBtn";
 import Navbar from "../../components/navbar";
+import { SocialIcon } from "react-social-icons";
 import "./index.css";
 const HomePage: React.FC<{}> = () => {
   return (
@@ -26,6 +28,13 @@ const HomePage: React.FC<{}> = () => {
 
           <div className="btn">
             <Button />
+            <MenuButton />
+          </div>
+          <div className="social-icons">
+            <SocialIcon url="https://twitter.com/jaketrent" />
+            <SocialIcon url="https://facebook.com/jaketrent" />
+            <SocialIcon url="https://whatsapp.com/jaketrent" />
+            <SocialIcon url="https://instagram.com/jaketrent" />
           </div>
         </div>
 

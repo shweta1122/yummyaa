@@ -24,4 +24,16 @@ h2 {
   justify-content: left;
   display: flex;
   margin-top: 67px;
+  gap: 5rem;
+  margin-bottom: 3rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  margin-top: 7rem;
+}
+
+.main-body-title {
+  background-image: url("D:\MyLearning\Yummyaa\yummyaa\public\assets\Chef cook standing crossed arms vector image on VectorStock.jpg");
 }
