@@ -13,17 +13,20 @@ h2 {
   font-weight: 500;
   font-family: Bahnschrift Light;
   line-height: 43px;
+  margin-top: 100px;
 }
 
+.main-body-title {
+  width: 425px;
+}
 .main-content {
-  margin-right: 479px;
   margin-top: 3rem;
 }
 
 .btn {
   justify-content: left;
   display: flex;
-  margin-top: 67px;
+  margin-top: 50px;
   gap: 5rem;
   margin-bottom: 3rem;
 }
@@ -34,6 +37,15 @@ h2 {
   margin-top: 7rem;
 }
 
-.main-body-title {
-  background-image: url("D:\MyLearning\Yummyaa\yummyaa\public\assets\Chef cook standing crossed arms vector image on VectorStock.jpg");
+.main-body-title img {
+  z-index: -1;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.main-body2 img {
+  border-top-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }

@@ -3,12 +3,15 @@ import MenuButton from "../../components/button/MenuTableBtn";
 import Navbar from "../../components/navbar";
 import { SocialIcon } from "react-social-icons";
 import "./index.css";
+import chefImage from "./chef.jpg";
+import cookingImage from "./cooking.png";
 const HomePage: React.FC<{}> = () => {
   return (
     <div>
       <Navbar />
       <div className="main-body1">
         <div className="main-body-title">
+          <img src={chefImage} width="300" height="540" />
           <h2>
             Food that makes you say wow,<br></br> we welcome here all the
             <br></br>
@@ -38,12 +41,9 @@ const HomePage: React.FC<{}> = () => {
           </div>
         </div>
 
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex
-        </p>
+        <div className="main-body2">
+          <img src={cookingImage} width="550" height="790" />
+        </div>
       </div>
     </div>
   );
