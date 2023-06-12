@@ -1,3 +1,13 @@
 .main-cuisine {
-  margin-top: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #e3e3e3;
+}
+h2 {
+  font-weight: 200;
+  font-size: -webkit-xxx-large;
+}
+.cuisine-title {
+  /* margin-top: 175px; */
 }

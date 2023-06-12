@@ -42,7 +42,7 @@ const HomePage: React.FC<{}> = () => {
         </div>
 
         <div className="main-body2">
-          <img src={cookingImage} width="550" height="790" />
+          <img src={cookingImage} width="550" height="750" />
         </div>
       </div>
     </div>

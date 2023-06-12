@@ -1,6 +1,9 @@
 .logo {
-  grid-column: 2/3;
-  display: grid;
+  display: flex;
   justify-content: start;
   align-items: center;
+}
+.h3 {
+  font-weight: 400;
+  font-size: x-large;
 }

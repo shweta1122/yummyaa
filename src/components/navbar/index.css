@@ -38,6 +38,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #ea6d27;
+}
+
 .book-table-btn {
   display: flex;
   grid-column: 4/5;
